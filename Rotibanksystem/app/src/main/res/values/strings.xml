@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Rotibanksystem</string>
+
+    <string name="about">
+
+Roti Bank System is an organisation which aims to redistribute excess food from weddings, parties, events to those who are hungry.
+
+The idea took root in Coimbatore, where we started with 2 Shopper Bags and a volunteer to collect the surplus food and deliver to the homeless through Public Transportation System from October 16th, 2014. We took an oath on that day to stop food waste and satisfy the hunger of many, in a quest to make the “World Hunger Free.”
+
+We have picked and distributed food 96% times, provided food to a million hungry people, saved nearly  321 tonnes of food, which amounts to nearly Rs 4.87 crores.
+
+Roti bank system works alongside Governments, Corporates with Social Responsibility on their minds, other partners and Volunteers to create a local chapter of excess food collection institution, which will be spread across various cities, addressing the two major challenges – namely urban and environmental, following the United Nations Sustainable Development Goals.
+
+We aim to bring benefits across the spectrum of society and help provide access to food to those who don’t have adequate means to access it.
+</string>
+    <!-- Strings related to login -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="thnxdonator">Your food donation has been accepted and our volunteer will pick it up shortly.</string>
+    <string name="text_alcohol">How can I get involved?</string>
+
+    <string name="text_coffee">How can I donate food?</string>
+
+    <string name="text_pasta">How can I become part of rotibank system?
+</string>
+
+    <string name="text_cold_drinks">Is there anyting you wont accept?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user">com.example.rotibanksystem.user</string>
+    <string name="title_activity_maps2">Map</string>
+    <string-array name="string_array_alcohol">
+        <item>There are lots of ways you can support rotibank system visit our get involved page to find out more."
+  </item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="string_array_coffee">
+
+        <item>You can make request in our app our volunteer will contact you and take leftover food."
+           </item>
+    </string-array>
+
+
+    <string-array name="string_array_pasta">
+
+        <item>You just need to fill the volunteer form and then you will become part of our service."
+        </item>
+    </string-array>
+    <string-array name="string_array_cold_drinks">
+
+        <item>Yes, we do not redistribute surplus alcohol.</item>
+    </string-array>
+
+
+</resources>

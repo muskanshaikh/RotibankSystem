@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#29000000">
+    <include
+        layout="@layout/activity_videobg"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/logo2" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Feed People.Not Landfills"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/text"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="India's non-profit excess food recovery organisation"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_donate"
+                    style="@style/StyleBtn"
+                    android:layout_below="@+id/text2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Donate" />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:layout_alignParentBottom="true"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Wish to donate Untouched food?call us on 1234567890."
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:padding="50dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/text"
+
+                    android:background="@android:color/white"
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Statistics"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:background="@android:color/white"
+
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Roti bank system has helped redistributed and fill nearly 1 million plates of joyful food.Everyday the excess food collected is used to feed an averge of 1400 people across multiple cities in india who lacks food."
+
+
+                    android:textSize="25dp"
+                    android:padding="50dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="191dp"
+                    android:orientation="vertical"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@drawable/backwithborder">>
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/ic_arrow"
+
+                        />
+
+
+                    <TextView
+
+                        android:layout_width="266dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@+id/img"
+
+
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="50dp"
+
+                        android:layout_marginBottom="10dp"
+                        android:text="96% "
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+
+                        android:layout_width="266dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center"
+
+                        android:text="of the donor wishes were fulfilled"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="191dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@drawable/backwithborder">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/ic_peoplefed"
+
+                        />
+
+
+                    <TextView
+
+                        android:layout_width="266dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@+id/img"
+
+
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="50dp"
+
+                        android:layout_marginBottom="10dp"
+                        android:text="1M+ "
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:text="plates of food collected and distributed"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="191dp"
+                    android:orientation="vertical"
+
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@drawable/backwithborder">>
+
+                    <ImageView
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="39dp"
+                        android:layout_marginRight="50dp"
+                        android:src="@drawable/ic_add"
+
+                        />
+
+
+                    <TextView
+
+                        android:layout_width="266dp"
+                        android:layout_height="46dp"
+                        android:layout_below="@+id/img"
+
+
+                        android:layout_marginStart="160dp"
+
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="50dp"
+
+                        android:layout_marginBottom="10dp"
+                        android:text="8Cr"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp" />
+
+                    <TextView
+
+                        android:layout_width="266dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center"
+
+                        android:text="of revenue being solved till date"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/text"
+
+                    android:background="@android:color/white"
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Partner"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+
+                    android:background="@drawable/backwithborder"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Alone we do little,togther we accomplish a great deed."
+
+                    android:textSize="25dp"
+                    android:padding="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/text"
+
+                    android:background="@android:color/white"
+
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Take an action"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/text"
+                    android:background="@android:color/white"
+
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Join us Volunteer"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/white"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text=" Donate us"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:background="@android:color/white"
+
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Take Pledge"
+                    android:textColor="@android:color/black"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Subscribe us"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:text="Interested to know more about us and what we do?"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Name"
+                    android:id="@+id/subname"
+                    android:background="@drawable/borderedit"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Email"
+                    android:textColor="@color/white"
+                    android:id="@+id/subemail"
+                    android:background="@drawable/borderedit"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Subscribe"
+                    android:padding="5dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/btnsub"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Please see our website also"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btnsocail"
+                    style="@style/StyleBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="10dp"
+
+
+
+                    android:layout_marginTop="20dp"
+
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/borderedit"
+                    android:drawableRight="@drawable/fac"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Click me"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Roti bank system @copyright2020"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Made with "
+                    android:drawableBottom="@drawable/hearticon"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text"
+
+
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="to feed the Needy "
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

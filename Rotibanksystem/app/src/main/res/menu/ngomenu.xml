@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_aboutus"
+        android:title="About us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mapview"
+        android:title="Nearby Volunteer and Needy people"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#29000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/text"
+
+        android:background="@android:color/white"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="How We Work"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@android:color/white"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+android:text="We aim to redistribute surplus food to those who are in need of it.If you have excess food from an event,party,weeding etc.please call our helpline our volunteer will collect the excess food from you and distribute it among poeple who need it."
+
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="191dp"
+            android:orientation="vertical"
+
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/backwithborder">>
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="160dp"
+
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/ic_call"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="266dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/img"
+
+
+                android:layout_marginStart="160dp"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="Call us"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="30dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+
+                android:text="A donor gets in touch with us at our helpline"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="191dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/backwithborder">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="160dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_check"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="266dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/img"
+
+
+            android:layout_marginStart="100dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginBottom="10dp"
+            android:text="Quality check "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <TextView
+
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+
+            android:text="check quality of excess food"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="191dp"
+        android:orientation="vertical"
+
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/backwithborder">>
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="160dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_place"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="266dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/img"
+
+
+            android:layout_marginStart="160dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginBottom="10dp"
+            android:text="Locate"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <TextView
+
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+
+            android:text="We locate the most feasible hunger spot"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="191dp"
+            android:orientation="vertical"
+
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/backwithborder">>
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="160dp"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/ic_deliver"
+
+                />
+
+
+            <TextView
+
+                android:layout_width="266dp"
+                android:layout_height="46dp"
+                android:layout_below="@+id/img"
+
+
+                android:layout_marginStart="160dp"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="50dp"
+
+                android:layout_marginBottom="10dp"
+                android:text="Deliver"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="30dp" />
+
+            <TextView
+
+                android:layout_width="266dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+
+android:text="Excess food is redistributed with love"                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

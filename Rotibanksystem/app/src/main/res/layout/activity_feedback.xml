@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".feedback">
+
+
+    <ImageView
+        android:layout_width="216dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/donation_back"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        tools:ignore="MissingConstraints">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#b8b8b8"
+            android:id="@+id/lineleft"/>
+
+
+        <TextView
+            android:id="@+id/linkto_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="FeedBack"
+            android:textStyle="bold"
+
+            android:textColor="#525252"
+            android:textSize="20sp" />
+
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#b8b8b8"
+            android:id="@+id/lineright"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="182dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/backwithborder"
+            android:ems="10"
+            android:gravity="start|top"
+            android:paddingLeft="5dp"
+
+            android:hint="  Please write your suggestions/improvement..."
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button1"
+            android:background="@drawable/button_rectangle_pink"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

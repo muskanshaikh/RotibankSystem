@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/text"
+
+            android:background="@android:color/white"
+
+            android:layout_marginTop="20dp"
+
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Vision"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+            android:background="@android:color/white"
+
+            android:layout_marginTop="5dp"
+
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+android:text="To bring a social change in every individual in-order to reduce food waste and to make the World Hunger Free."
+
+            android:textSize="20dp"
+            android:padding="20dp"
+            />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Mission"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Action"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+android:text="To feed the needy and hungry with untouchable edible surplus food."
+                android:textSize="20dp"
+                android:padding="20dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Audit Methods"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+android:text="To sensitize people about the amount of food being wasted through standardized food waste auditing methods."                android:textSize="20dp"
+                android:padding="20dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Alternative Solutions"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="20dp"
+android:text="To provide alternative solutions for spoiled or wasted food ensuring that too not reaches the landfills, dumpsites or dustbins."                android:padding="20dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Citizens"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+android:text="To raise awareness about food loss and food waste amongst citizens and bring about behavioral change in them to prevent food waste at home, school or at workplace through guidance and sharing of good practice"                android:padding="20dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/text"
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Food Solutions"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:background="@android:color/white"
+
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+android:text="To raise awareness among Food businesses by encouraging them to adopt good practices to reduce food loss and food waste in their supply chains and sharing good practices"                android:padding="20dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolunteerActivity"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".VolunteerActivity">
+
+
+
+
+        <EditText
+            android:id="@+id/editText_mobile"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText_sign_orgName"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Phone number"
+
+
+            android:inputType="number" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/primary_text"
+            android:typeface="serif"
+            android:id="@+id/select_gender"
+            android:layout_below="@id/editText_mobile"
+            android:text="Select Gender"/>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:id="@+id/gender"
+
+            android:layout_below="@+id/select_gender">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_drawel"
+
+                android:button="@null"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Male"
+                android:typeface="serif"
+                android:textColor="@color/primary_text" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_drawel"
+                android:button="@null"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Female"
+                android:typeface="serif"
+                android:textColor="@color/primary_text" />
+
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/primary_text"
+            android:typeface="serif"
+            android:id="@+id/available"
+            android:layout_below="@id/gender"
+            android:text="Availability"/>
+
+
+
+        <Spinner
+            android:id="@+id/spinner_donation_donation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/days"
+            android:layout_below="@+id/textView4_donation"
+
+
+             />
+
+        <TextView
+            android:id="@+id/textView4_donation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Select days"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_donation_donation"
+            android:layout_below="@id/available"/>
+
+        <Spinner
+            android:id="@+id/spinner_donation_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/time"
+            android:layout_below="@+id/textView4_time"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textView4_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Preferred time"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/spinner_donation_donation"
+            android:layout_below="@id/spinner_donation_donation"/>
+
+
+
+        <EditText
+            android:id="@+id/editText_sign_orgName"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Full Name"
+
+
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="413dp"
+            android:layout_height="37dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Volunteer Registration"
+            android:textAlignment="center"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editText_sign_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+
+            tools:ignore="DuplicateIds"
+
+
+            android:layout_below="@id/txt_select_location"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            />
+
+        <EditText
+            android:id="@+id/editText_sign_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password"
+
+
+
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="71dp"
+            android:layout_below="@id/editText_sign_email"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <EditText
+            android:id="@+id/editText_sign_password_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="71dp"
+            android:layout_below="@id/editText_sign_password"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/primary_text"
+            android:typeface="serif"
+            android:id="@+id/before"
+
+            android:layout_below="@id/editText_sign_password_confirmpassword"
+            android:text="Have you ever volunteered with NGO before?"/>
+
+        <EditText
+            android:id="@+id/yesngo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="If Yes Where?"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="71dp"
+            android:layout_below="@id/before"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_donation_pick"
+            style="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:text="I would like to volunteer for delivering food and receive notifications about food donations."
+            android:layout_below="@id/yesngo"
+            />
+
+
+        <Button
+            android:id="@+id/button_sign_register"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+
+            android:background="@drawable/button_rectangle_pink"
+            android:textColor="#000000"
+            android:text="register"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_below="@id/checkBox_donation_pick"
+             />
+
+        <TextView
+            android:id="@+id/textView_sign_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Forgot your password?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@+id/button_sign_register" />
+
+        <TextView
+            android:id="@+id/textView_sign_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="Already have an account?Log in"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView_sign_forgot"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_select_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:textColor="@color/primary_text"
+            android:typeface="serif"
+            android:layout_below="@+id/spinner_donation_time"
+            android:gravity="center_vertical"
+            android:background="@drawable/view_bg"
+            android:drawableRight="@drawable/ic_location"
+            android:text="Select the location"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar_sign"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="119dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/textView_sign_login"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

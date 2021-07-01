@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rotibanksystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".newprofile"></activity>
+        <activity android:name=".volunteerwelcome" />
+        <activity
+            android:name=".volunteerabout"
+         />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name=".MapsActivity2"
+
+            />
+        <activity android:name=".passvar" />
+        <activity android:name=".listvolunteer" />
+        <activity android:name=".ngowelcome"
+
+
+
+
+            />
+        <activity android:name=".ngoabout"
+
+            />
+        <activity android:name=".ngolist" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".videobg" />
+        <activity android:name=".slider2" />
+        <activity android:name=".slider1" />
+        <activity android:name=".videosgnin" />
+        <activity android:name=".list_row_group" />
+        <activity android:name=".list_row_child" />
+        <activity
+            android:name=".faqs"
+            android:parentActivityName=".Aboutus" />
+        <activity
+            android:name=".mission"
+            android:parentActivityName=".Aboutus" />
+        <activity
+            android:name=".whoweare"
+            android:parentActivityName=".Aboutus" />
+        <activity
+            android:name=".howwework"
+            android:parentActivityName=".Aboutus" />
+        <activity
+            android:name=".feedback"
+            android:parentActivityName=".Aboutus" />
+        <activity
+            android:name=".donationlist"
+            android:parentActivityName=".Aboutus" />
+        <activity android:name=".acceptdecline">
+            <intent-filter>
+                <action android:name="com.example.rotibanksystem_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NgoActivity" />
+        <activity android:name=".donorprofile" />
+        <activity android:name=".NeedyActivity" />
+        <activity android:name=".activity_layout" />
+        <activity
+            android:name=".Aboutus"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".thanks" />
+        <activity android:name=".dialogue" />
+        <activity android:name=".welcome" />
+        <activity android:name=".LoginActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name=".Resetpass" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name=".SignUp" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".VolunteerActivity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA-0aUv7o81kkrhyAfkLAI3EBJ-zuXoAeg" />
+
+        <receiver android:name=".NotificationActionReceiver">
+            <intent-filter>
+                <action android:name="CONFIRM" />
+                <action android:name="CANCEL" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".MyfirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>
